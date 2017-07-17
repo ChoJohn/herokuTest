@@ -1,0 +1,65 @@
+body {
+  background: url(./image/chalkboard.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-size: 100%;
+  font-family: Crayon , Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+@font-face {
+  font-family: Crayon;
+  src: url("./font/crayon.ttf");
+  color: white;
+}
+
+[class*='col-'] {
+  padding: 0px;
+}
+
+.centre {
+  text-align: center;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.subject {
+  text-align: center;
+  padding: 3%;
+  font-size: 500%;
+  color: white;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
+
+.back {
+  text-align: right;
+  color: white;
+  font-size: 500%;
+}
+
+.studentForm {
+  color: black;
+}
