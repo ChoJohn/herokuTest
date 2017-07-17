@@ -1,4 +1,4 @@
-<?php
+<?php header( 'Location: /index.html' ) ;
     if ($_POST["submit"]) {
         if (!$_POST['name']) {
             $error="<br />Please enter your name";
